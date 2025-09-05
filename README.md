@@ -18,6 +18,12 @@ As the AI trains, it updates state values in the background. Watching them conve
   Learns action-value pairs with an ε-greedy exploration strategy. After enough training, the agent can play Blackjack competitively against the dealer.  
 
 ## Usage
+Create a conda env using:
+```bash
+conda create -n blackjack python=3.10
+conda activate cse150b
+pip install pygame
+```
 Run the game with:
 ```bash
 python main.py
